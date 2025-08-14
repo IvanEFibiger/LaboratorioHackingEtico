@@ -1,6 +1,6 @@
-# 🛡️ Laboratorio de Hacking Ético – Metasploitable 3 Ubuntu 14.04 LTS  
+# 🛡 Laboratorio de Hacking Ético – Metasploitable 3 Ubuntu 14.04 LTS  
 
-## 📌 Descripción  
+## Descripción  
 Este laboratorio simula un escenario controlado de pruebas de penetración (*pentest*) sobre un sistema vulnerable, siguiendo una metodología estándar desde el reconocimiento hasta la escalada de privilegios.  
 El objetivo es poner en práctica técnicas y herramientas de **ciberseguridad ofensiva** en un entorno seguro.  
 
@@ -8,7 +8,7 @@ El objetivo es poner en práctica técnicas y herramientas de **ciberseguridad o
 
 ---
 
-## 🖥️ Entorno de Trabajo  
+##  Entorno de Trabajo  
 - **Atacante:** Kali Linux (VirtualBox 7.1.10)  
 - **Objetivo:** Metasploitable 3 – Ubuntu 14.04 LTS  
 - **Red:** Host-Only – `192.168.56.0/24`  
@@ -21,7 +21,7 @@ El objetivo es poner en práctica técnicas y herramientas de **ciberseguridad o
 
 ---
 
-## 📋 Metodología  
+## Metodología  
 1. **Reconocimiento de hosts** – Descubrimiento de IPs activas.  
 2. **Escaneo de puertos y servicios** – Identificación de software y versiones.  
 3. **Análisis de vulnerabilidades** – Uso de Nmap NSE y Nessus para priorizar fallos críticos.  
@@ -30,7 +30,7 @@ El objetivo es poner en práctica técnicas y herramientas de **ciberseguridad o
 
 ---
 
-## 🔍 Vulnerabilidades clave encontradas  
+## Vulnerabilidades clave encontradas  
 
 UnrealIRCd Backdoor - CVE-2010-2075 - Crítica - Versión troyanizada con ejecución remota de comandos sin autenticación.
 Drupal Coder Module RCE - Plugin 92626 - Crítica - Deserialización insegura que permite RCE.
@@ -38,7 +38,7 @@ MySQL Expuesto - Alta - Servicio accesible sin restricción externa.
 
 ---
 
-## 📸 Evidencias  
+## Evidencias  
 En el PDF incluido se documentan:  
 - Resultados de escaneo de red y servicios.  
 - Salidas de Nmap y Nessus.  
@@ -47,12 +47,12 @@ En el PDF incluido se documentan:
 
 ---
 
-## 📄 Documentación completa  
+## Documentación completa  
 📂 **[Laboratorio_Hacking_Etico.pdf](Laboratorio%20Hacking%20Etico.pdf)**  
 
 ---
 
-## 🛠️ Recomendaciones de remediación  
+## Recomendaciones de remediación  
 - **Actualizar UnrealIRCd** a versión libre de backdoor.  
 - **Eliminar usuarios no administradores** del grupo `docker`.  
 - **Actualizar SO** a una versión con soporte.  
@@ -60,5 +60,5 @@ En el PDF incluido se documentan:
 
 ---
 
-## 📢 Autor  
+## Autor  
 **Ivan Fibiger** – Técnico Universitario en Tecnologías de Programación | En proceso de formación en Ciberseguridad.  
